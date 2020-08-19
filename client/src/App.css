@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(53, 53, 53);
+}
+
+.mobile-dropdown{
+  color:black !important;
+}
+
+.card{
+  height:500px;
+  margin-bottom:6vh !important;
+  overflow-y:auto;
+}
+.home-page-image img{
+  width:25vw;
+  margin-top: 10vh;
+}
+.hotel-button{
+  margin-top: 20vh !important;
+  border-radius: 50px;
+}
+.home-container{
+  margin-top: 20vh;
+}
+.home-container .ui.header{
+  color:white;
+  text-align: center;
+  margin-left: 10vw;
+}
+.error-message{
+  text-align:center;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card{
+    margin-bottom:10vh !important;
+    margin-left: 10vw !important;
+  }
+  .home-container .ui.header{
+    margin-left:25vw;
+  }
+  .home-page-image img{
+    width:90vw;
+  }
+  .hotel-button{
+    margin-top: 8vh !important;
+    margin-left: 20vw;
+  }
+}
